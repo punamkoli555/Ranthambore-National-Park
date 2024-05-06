@@ -1,0 +1,122 @@
+table, th,td
+{border:none;}
+
+.clr a
+{text-decoration:none;
+color: (white 255, 255, 255);
+}
+
+.head h2
+{font-weight:bold; 
+margin-left:50px;
+line-height:30px;
+text-align:left;
+ font-size:20px;
+ margin-top:30px;}
+
+ .head p
+ {font-size:16px;
+ margin-left:50px;
+ text-align:left;}
+ 
+ 
+ .imag 
+{
+	height:300px;
+	width:400px;
+	margin-top:50px;
+}
+
+.head a
+{border:1px solid rgb(241, 8, 8);
+background:#b4199d;
+padding:10px;color:white;
+text-decoration:none;}
+
+.back
+{background:#66033b;}
+
+.back a
+{border:1px solid (rgb(219, 226, 230));
+background:#e3e3e6;
+margin-left:20px;
+padding:10px;color:rgb(199, 24, 24);
+text-decoration:none;}
+
+.social img
+{border:2px solid #f5edf3;
+border-radius:50%;
+padding:10px;
+margin-left:10px;}
+
+.head2
+{background:white(221, 218, 218);
+text-align:left;
+}
+
+.head2 p
+{line-height:25px;
+margin-left:100px;}
+
+.head2 h2
+{margin-left:100px;}
+.btn{width:50%;
+height:25px;
+}
+.btn2{padding:10px 20px;
+}
+.head2 input{margin: 10px 0;}
+
+/* RegisterPage Style */
+
+.bg-image-rg{
+	width: 100%;
+	height: 100vh;
+	/* height: 100%; */
+	position: absolute;
+	z-index: -1;
+	opacity: 0.5;
+  }
+  
+  .fname{
+	margin-top:24px;
+	text-align: center;
+  }
+  
+  form input{
+	margin: 20px;
+	padding: 20px;
+	width: 80%;
+	font-size: 0.9rem;
+	border-radius: 15px;
+  }
+  .f-btn{
+	padding: 10px 30px;
+	background: var(--clr-primary);
+	border-radius: 40px;
+	font-size: 20px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	cursor: pointer;
+	margin-bottom: 20px;
+  }
+  .f-btn:hover{
+	background: #39b6a7;
+  }
+  /* End of Form */
+
+
+/* Login Page Start */
+
+.login-window{
+	width: 100%;
+	align-items: center;
+	display: flex;
+	align-content: space-around;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+  }
+  /* Login page End */
